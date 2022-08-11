@@ -4,10 +4,6 @@ body {
   background-color: lightgray;
 }
 
-body {
-  background-image: url('building.jpeg');
-}
-
 h1,
 h4 {
   text-align: center;
