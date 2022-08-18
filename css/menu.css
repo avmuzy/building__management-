@@ -8,3 +8,10 @@ h1,
 h4 {
   text-align: center;
 }
+
+#paragraph-result {
+  margin-top: 50px;
+}
+input {
+  width: 50px;
+}
