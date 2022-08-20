@@ -13,20 +13,22 @@
     <h2>Units calculation</h2>
     <p>
       <label for="input-towers">Number of towers:</label><br />
-      <input id="input-towers" type="numbers" />
+      <input id="input-towers" type="number" value="1" />
     </p>
     <p>
       <label for="input-floors">Number of floors: &nbsp;</label><br />
-      <input id="input-floors" type="numbers" />
+      <input id="input-floors" type="number" value="2" />
     </p>
     <p>
       <label for="input-apartments-by-floor">Apartments by floor:</label><br />
-      <input id="input-apartments-by-floor" type="number" />
+      <input id="input-apartments-by-floor" type="number" value="3" />
     </p>
     <p>
       <button id="button-calculate-total-apartments">Calculate</button>
     </p>
-    <p id="paragraph-result"><strong>Total apartments: </strong>8.0</p>
+    <p id="paragraph-result">
+      <strong id="total-apartments">Total apartments: </strong>
+    </p>
     <script defer src="js/script.js"></script>
   </body>
 </html>
