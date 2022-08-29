@@ -32,7 +32,7 @@
       <input
         type="button"
         value="Calculate"
-        onclick="calculate-total-apartments()"
+        onclick="calculateTotalApartments()"
       />
     </p>
     <p id="paragraph-result">
@@ -42,13 +42,14 @@
     <h1>Revenues</h1>
     <p>
       <label for="month-revenue">Month revenue:</label><br />
-      <input type="text" />
+      <input type="number" name="monthRevenue" id="monthRevenue" />
     </p>
     <p>
       <label for="taxes">Taxes</label><br />
-      <input id="taxes" type="number" />
+      <input type="number" name="taxes" id="taxes" />
     </p>
-    <p><button>Calculate tax</button></p>
+    <input type="button" value="Calculate" onclick="calculateTax()" />
+    <div id="revRes">Annual revenue:</div>
 
     <h1>Expenses</h1>
     <label for="expenses">Expenses</label><br />
