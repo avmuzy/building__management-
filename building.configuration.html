@@ -54,8 +54,15 @@
 
     <h1>Expenses</h1>
     <label for="expenses">Expenses</label><br />
-    <input type="number" name="expenses" id="expenses" />
-    <input type="button" value="Calculate" />
+    <input type="number" name="expenses" id="expenses" /><br />
+    <input
+      id="expense"
+      type="button"
+      value="Calculate"
+      onclick="calculateExpen()"
+    />
+    <div id="monExp">Monthly expenses:</div>
+    <div id="annualExp">Annual expenses:</div>
     <script defer src="js/script_building.js"></script>
   </body>
 </html>

@@ -21,3 +21,11 @@ function calculateTax() {
   monRev.innerHTML = `Monthly revnue : ${revmonth}`;
   revRes.innerHTML = ` Annual revenue: ${revtot}`;
 }
+
+function calculateExpen() {
+  var exptx = window.document.getElementById('expenses');
+  var expnum = Number(exptx.value);
+  var annualexp = expnum * 12;
+  monExp.innerHTML = `Monthly epenses: ${expnum}`;
+  annualExp.innerHTML = `Annual expenses: ${annualexp}`;
+}
